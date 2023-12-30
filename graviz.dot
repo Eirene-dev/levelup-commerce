@@ -1,0 +1,393 @@
+digraph G {
+	graph [bb="0,0,1842.2,1806.1",
+		bgcolor="white",
+		layout=dot,
+		overlap=false,
+		pad=0.3,
+		rankdir=LR
+	];
+	node [color="#black",
+		fontcolor="#black",
+		fontname=Arial,
+		fontsize="14px",
+		height=0,
+		label="\N",
+		shape=box,
+		style=rounded
+	];
+	edge [color="#black"];
+	"app/[page]/layout.tsx"	[height=0.32986,
+		pos="102.5,1191.2",
+		width=1.9514];
+	"components/layout/footer.tsx"	[height=0.32986,
+		pos="381.75,1191.2",
+		width=2.6181];
+	"app/[page]/layout.tsx" -> "components/layout/footer.tsx"	[pos="e,287.01,1191.2 173.1,1191.2 204.09,1191.2 241.25,1191.2 275.52,1191.2"];
+	"components/layout/footer-menu.tsx"	[height=0.32986,
+		pos="702.25,1191.2",
+		width=3.1701];
+	"components/layout/footer.tsx" -> "components/layout/footer-menu.tsx"	[pos="e,587.82,1191.2 476.16,1191.2 507.57,1191.2 543.14,1191.2 576.57,1191.2"];
+	"components/logo-square.tsx"	[height=0.32986,
+		pos="702.25,791.23",
+		width=2.5868];
+	"components/layout/footer.tsx" -> "components/logo-square.tsx"	[pos="e,608.83,787.47 426.79,1178.9 458.78,1167.5 500.21,1147.3 522.5,1114.2 598.03,1002.1 464.24,909.12 558.5,812.23 569.25,801.18 583.09,\
+794.23 597.9,790.05"];
+	"app/[page]/opengraph-image.tsx"	[height=0.32986,
+		pos="381.75,509.23",
+		width=2.9306];
+	"components/opengraph-image.tsx"	[height=0.32986,
+		pos="702.25,509.23",
+		width=3.0764];
+	"app/[page]/opengraph-image.tsx" -> "components/opengraph-image.tsx"	[pos="e,591.26,509.23 487.48,509.23 517.11,509.23 549.61,509.23 580.12,509.23"];
+	"components/icons/logo.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1009.2,585.23",
+		width=2.441];
+	"components/opengraph-image.tsx" -> "components/icons/logo.tsx"	[pos="e,958.73,572.89 752.59,521.53 805.78,534.78 890.48,555.89 947.67,570.14"];
+	"app/[page]/page.tsx"	[height=0.32986,
+		pos="381.75,1350.2",
+		width=1.8681];
+	"components/prose.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="702.25,1465.2",
+		width=2.066];
+	"app/[page]/page.tsx" -> "components/prose.tsx"	[pos="e,627.64,1464.4 449.32,1348 474.19,1350.1 501.48,1356.3 522.5,1371.2 550.4,1391 530.91,1419 558.5,1439.2 575.22,1451.5 595.94,1458.5 \
+616.35,1462.5"];
+	"app/api/revalidate/route.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="102.5,1542.2",
+		width=2.3785];
+	"app/chat/page.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="102.5,1584.2",
+		width=1.7014];
+	"app/error.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="102.5,1626.2",
+		width=1.2639];
+	"app/globals.css"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1271.6,1309.2",
+		width=1.5139];
+	"app/layout.tsx"	[height=0.32986,
+		pos="1009.2,1309.2",
+		width=1.3785];
+	"app/layout.tsx" -> "app/globals.css"	[pos="e,1216.9,1309.2 1059.2,1309.2 1100.6,1309.2 1160.1,1309.2 1205.4,1309.2"];
+	"lib/utils.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1271.6,1086.2",
+		width=0.99306];
+	"app/layout.tsx" -> "lib/utils.ts"	[pos="e,1266.2,1098.4 1059.1,1307.8 1084,1305 1113.8,1298.4 1136.5,1283.2 1202.4,1239.3 1244.8,1150.8 1261.9,1109.1"];
+	"app/opengraph-image.tsx"	[height=0.32986,
+		pos="381.75,593.23",
+		width=2.3576];
+	"app/opengraph-image.tsx" -> "components/opengraph-image.tsx"	[pos="e,592.81,521.57 466.79,589.57 485.85,586.33 505.47,580.97 522.5,572.23 542.91,561.76 538.25,546.03 558.5,535.23 565.92,531.28 573.83,\
+527.92 581.98,525.05"];
+	"app/page.tsx"	[height=0.32986,
+		pos="102.5,1500.2",
+		width=1.2951];
+	"app/page.tsx" -> "components/layout/footer.tsx"	[pos="e,349.44,1203.6 108.17,1488.1 122.79,1451.4 170.93,1339.9 241,1271.2 269.41,1243.4 309.39,1221.8 339.31,1208.1"];
+	"components/carousel.tsx"	[height=0.32986,
+		pos="381.75,1500.2",
+		width=2.3056];
+	"app/page.tsx" -> "components/carousel.tsx"	[pos="e,298.37,1500.2 149.59,1500.2 186.93,1500.2 240.76,1500.2 287.08,1500.2"];
+	"components/grid/three-items.tsx"	[height=0.32986,
+		pos="381.75,1542.2",
+		width=2.9097];
+	"app/page.tsx" -> "components/grid/three-items.tsx"	[pos="e,298.35,1529.9 149.33,1507.3 176.06,1511.4 210.44,1516.6 241,1521.2 255.93,1523.5 271.76,1525.9 287.2,1528.2"];
+	"components/grid/tile.tsx"	[height=0.32986,
+		pos="702.25,1507.2",
+		width=2.2014];
+	"components/carousel.tsx" -> "components/grid/tile.tsx"	[pos="e,622.73,1505.5 465.19,1502 509.96,1503 565.38,1504.2 611.28,1505.3"];
+	"components/grid/three-items.tsx" -> "components/grid/tile.tsx"	[pos="e,622.54,1515.9 486.6,1530.8 526.83,1526.4 572.45,1521.4 611.26,1517.1"];
+	"lib/shopify/types.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1009.2,1095.2",
+		width=1.7535];
+	"components/grid/three-items.tsx" -> "lib/shopify/types.ts"	[pos="e,945.81,1090.6 417.24,1554.6 502.81,1582.8 726.53,1641.1 846,1528.2 912.81,1465.1 819.59,1183.7 882,1116.2 895.5,1101.6 914.97,\
+1094.7 934.6,1091.8"];
+	"app/product/[handle]/page.tsx"	[height=0.32986,
+		pos="102.5,1265.2",
+		width=2.691];
+	"app/product/[handle]/page.tsx" -> "components/layout/footer.tsx"	[pos="e,302.67,1203.6 134.48,1252.9 162.08,1242.3 203.74,1227.1 241,1217.2 257.24,1212.9 274.72,1209.1 291.65,1205.7"];
+	"app/product/[handle]/page.tsx" -> "components/grid/tile.tsx"	[pos="e,622.53,1496.8 111.09,1277.5 129.51,1306.1 179.66,1377.8 241,1413.2 256.67,1422.3 540.71,1482.9 558.5,1486.2 575.46,1489.4 593.64,\
+1492.4 611.14,1495.1"];
+	"components/product/gallery.tsx"	[height=0.32986,
+		pos="381.75,1392.2",
+		width=2.816];
+	"app/product/[handle]/page.tsx" -> "components/product/gallery.tsx"	[pos="e,280.17,1383.4 115,1277.5 137.04,1300.3 187.76,1348.5 241,1371.2 249.94,1375 259.45,1378.2 269.15,1380.8"];
+	"components/product/product-description.tsx"	[height=0.32986,
+		pos="381.75,1292.2",
+		width=3.8681];
+	"app/product/[handle]/page.tsx" -> "components/product/product-description.tsx"	[pos="e,253.97,1279.9 199.69,1274.6 213.65,1276 228.24,1277.4 242.83,1278.8"];
+	"lib/constants.ts"	[color="#black",
+		fontcolor="#blakc",
+		height=0.32986,
+		pos="1271.6,469.23",
+		width=1.4618];
+	"app/product/[handle]/page.tsx" -> "lib/constants.ts"	[pos="e,1218.8,468.25 148.89,1253 169.6,1244.9 192.3,1232.1 205,1212.2 248.44,1144.4 183.16,544.29 241,488.23 275.76,454.54 988.94,464.27 \
+1207.5,468.05"];
+	"app/product/[handle]/page.tsx" -> "lib/shopify/types.ts"	[pos="e,945.81,1093.2 199.57,1261.1 394.56,1252.4 820.51,1231.3 846,1212.2 882.51,1185 846.81,1145.2 882,1116.2 896.71,1104.1 915.71,1097.8 \
+934.5,1094.7"];
+	"components/label.tsx"	[height=0.32986,
+		pos="1009.2,1486.2",
+		width=1.9931];
+	"components/grid/tile.tsx" -> "components/label.tsx"	[pos="e,937.01,1491.1 781.8,1501.8 825.88,1498.8 880.84,1495 925.58,1491.9"];
+	"components/product/gallery.tsx" -> "lib/utils.ts"	[pos="e,1262.1,1098.4 483.51,1398.8 581.86,1400.8 732.81,1391.7 846,1330.2 867.6,1318.5 861.17,1301.3 882,1288.2 981.11,1226.1 1035.2,\
+1279.7 1136.5,1221.2 1187.7,1191.7 1232.8,1137.6 1255.3,1107.6"];
+	"components/product/gallery.tsx" -> "components/grid/tile.tsx"	[pos="e,622.65,1506.8 449.3,1404.6 473.9,1411.4 500.99,1421.7 522.5,1437.2 544.43,1453 535.34,1472.3 558.5,1486.2 574.39,1495.8 593.04,\
+1501.6 611.51,1505"];
+	"components/product/product-description.tsx" -> "components/prose.tsx"	[pos="e,627.61,1466.4 480.24,1304.6 495.79,1310.1 510.64,1318 522.5,1329.2 559.9,1364.5 519.74,1405.4 558.5,1439.2 574.51,1453.2 595.47,\
+1460.8 616.37,1464.7"];
+	"components/product/product-description.tsx" -> "lib/shopify/types.ts"	[pos="e,945.76,1092.3 521.29,1286 648.67,1279.1 821.42,1265.9 846,1245.2 891.53,1206.9 837.71,1156 882,1116.2 896.37,1103.3 915.54,1096.8 \
+934.6,1093.7"];
+	"components/cart/add-to-cart.tsx"	[height=0.32986,
+		pos="702.25,955.23",
+		width=2.8681];
+	"components/product/product-description.tsx" -> "components/cart/add-to-cart.tsx"	[pos="e,635.94,967.6 422.66,1279.9 454.77,1267.9 498.37,1246.4 522.5,1212.2 574.13,1139.2 502.3,1083.8 558.5,1014.2 575.23,993.52 600.46,\
+980 625.08,971.2"];
+	"components/price.tsx"	[color="#blakc",
+		fontcolor="#blakc",
+		height=0.32986,
+		pos="1271.6,1425.2",
+		width=2.0035];
+	"components/product/product-description.tsx" -> "components/price.tsx"	[pos="e,1199.1,1433.9 456.85,1304.6 478.86,1310.2 502.43,1318.1 522.5,1329.2 541.73,1339.9 538.42,1354.2 558.5,1363.2 769.39,1457.9 1050.4,\
+1447.6 1187.8,1435"];
+	"components/product/variant-selector.tsx"	[height=0.32986,
+		pos="702.25,1309.2",
+		width=3.5451];
+	"components/product/product-description.tsx" -> "components/product/variant-selector.tsx"	[pos="e,574.6,1302.5 521.06,1299.6 535.1,1300.4 549.36,1301.1 563.4,1301.9"];
+	"app/robots.ts"	[color="#blakc",
+		fontcolor="#blakc",
+		height=0.32986,
+		pos="102.5,1668.2",
+		width=1.3056];
+	"app/search/[collection]/opengraph-image.tsx"	[height=0.32986,
+		pos="381.75,551.23",
+		width=3.9097];
+	"app/search/[collection]/opengraph-image.tsx" -> "components/opengraph-image.tsx"	[pos="e,607.53,521.59 476.59,538.86 514.16,533.91 557.62,528.17 596.25,523.08"];
+	"app/search/[collection]/page.tsx"	[height=0.32986,
+		pos="102.5,1049.2",
+		width=2.8472];
+	"app/search/[collection]/page.tsx" -> "lib/constants.ts"	[pos="e,1218.8,462.56 158.88,1036.9 176.42,1030.2 194.08,1019.9 205,1004.2 274.99,903.99 151.76,538.81 241,455.23 313.62,387.22 1037.1,\
+450.06 1136.5,455.23 1159.7,456.44 1185.1,458.82 1207.4,461.27"];
+	"components/layout/product-grid-items.tsx"	[height=0.32986,
+		pos="381.75,1093.2",
+		width=3.6701];
+	"app/search/[collection]/page.tsx" -> "components/layout/product-grid-items.tsx"	[pos="e,302.89,1080.9 181.47,1061.6 215.72,1067 256.13,1073.5 291.57,1079.1"];
+	"components/layout/product-grid-items.tsx" -> "components/grid/tile.tsx"	[pos="e,622.52,1513.1 426.84,1105.5 458.85,1116.9 500.3,1137.1 522.5,1170.2 561.84,1229 509.35,1435.5 558.5,1486.2 572.4,1500.6 591.5,\
+1508 611.21,1511.5"];
+	"components/layout/product-grid-items.tsx" -> "lib/shopify/types.ts"	[pos="e,945.64,1104 432.76,1105.6 467.73,1113.5 515.65,1123.1 558.5,1127.2 685.69,1139.4 719.62,1146.1 846,1127.2 862.55,1124.8 865.71,\
+1120.1 882,1116.2 898.86,1112.3 917.15,1108.8 934.44,1105.8"];
+	"app/search/layout.tsx"	[height=0.32986,
+		pos="102.5,353.23",
+		width=1.9931];
+	"app/search/layout.tsx" -> "components/layout/footer.tsx"	[pos="e,337.12,1179 106.46,365.38 119.57,419.57 173.25,644.92 205,832.23 215.56,894.52 205.48,1062 241,1114.2 261.13,1143.8 296.56,1163.2 \
+326.71,1175.1"];
+	"app/search/layout.tsx" -> "lib/constants.ts"	[pos="e,1257.4,456.89 173.12,340.88 343.37,313.63 791.99,259.8 1136.5,379.23 1180.6,394.53 1224.1,428.02 1249.1,449.55"];
+	"components/layout/search/collections.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="381.75,353.23",
+		width=3.6389];
+	"app/search/layout.tsx" -> "components/layout/search/collections.tsx"	[pos="e,250.38,353.23 174.54,353.23 194.37,353.23 216.65,353.23 239.03,353.23"];
+	"app/search/loading.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="102.5,1710.2",
+		width=2.0972];
+	"app/search/page.tsx"	[height=0.32986,
+		pos="102.5,983.23",
+		width=1.9097];
+	"app/search/page.tsx" -> "lib/constants.ts"	[pos="e,1247.2,457.07 120.47,971.08 144.17,953.01 186.37,916.61 205,874.23 246,780.98 166.19,486.38 241,417.23 314.07,349.7 1038.7,398.94 \
+1136.5,417.23 1172.1,423.89 1210.4,439.7 1236.9,452.14"];
+	"app/search/page.tsx" -> "components/layout/product-grid-items.tsx"	[pos="e,349.95,1081 134.5,995.53 184.57,1015.4 283.3,1054.6 339.34,1076.8"];
+	"app/sitemap.ts"	[height=0.32986,
+		pos="1009.2,1137.2",
+		width=1.4514];
+	"app/sitemap.ts" -> "lib/utils.ts"	[pos="e,1235.4,1094.7 1062,1129.3 1084.9,1125.6 1112.1,1121 1136.5,1116.2 1165.9,1110.5 1198.7,1103.2 1224.5,1097.2"];
+	"components/cart/actions.ts"	[height=0.32986,
+		pos="1009.2,749.23",
+		width=2.4618];
+	"components/cart/actions.ts" -> "lib/constants.ts"	[pos="e,1265.6,481.52 1043.5,736.9 1070.8,725.54 1109.3,706.62 1136.5,681.23 1197.5,624.36 1242.3,533.95 1261,492"];
+	"components/cart/add-to-cart.tsx" -> "lib/shopify/types.ts"	[pos="e,945.78,1083.4 747.5,967.55 777.18,977.18 816.14,992.6 846,1014.2 865.91,1028.7 861.45,1042.7 882,1056.2 897.88,1066.7 916.69,1074.4 \
+934.88,1080.1"];
+	"components/cart/add-to-cart.tsx" -> "components/cart/actions.ts"	[pos="e,963.31,761.6 805.83,954.58 820.55,950.58 834.56,944.17 846,934.23 888.69,897.17 845.69,855.57 882,812.23 900.23,790.48 927.81,\
+775.52 952.56,765.65"];
+	"components/loading-dots.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1009.2,833.23",
+		width=2.6181];
+	"components/cart/add-to-cart.tsx" -> "components/loading-dots.tsx"	[pos="e,993.26,845.59 805.9,945.34 819.61,942.52 833.3,938.89 846,934.23 899.41,914.65 954.05,876 984.32,852.6"];
+	"components/cart/close-cart.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="702.25,749.23",
+		width=2.7743];
+	"components/cart/delete-item-button.tsx"	[height=0.32986,
+		pos="702.25,833.23",
+		width=3.4826];
+	"components/cart/delete-item-button.tsx" -> "lib/shopify/types.ts"	[pos="e,945.64,1089.1 767.07,845.59 795.11,854.17 826.11,868.5 846,892.23 893.93,949.43 831.48,1001.3 882,1056.2 895.76,1071.2 915.12,\
+1080.5 934.55,1086.2"];
+	"components/cart/delete-item-button.tsx" -> "components/cart/actions.ts"	[pos="e,981.88,761.6 806.35,820.89 819.78,818.46 833.28,815.59 846,812.23 890.36,800.52 939.18,780.54 971.56,766.22"];
+	"components/cart/delete-item-button.tsx" -> "components/loading-dots.tsx"	[pos="e,914.52,833.23 827.75,833.23 852.77,833.23 878.84,833.23 903.13,833.23"];
+	"components/cart/edit-item-quantity-button.tsx"	[height=0.32986,
+		pos="702.25,707.23",
+		width=3.9931];
+	"components/cart/edit-item-quantity-button.tsx" -> "lib/shopify/types.ts"	[pos="e,945.94,1090.3 835.87,719.52 839.48,722.09 842.87,724.99 846,728.23 947.78,833.82 788.62,943.15 882,1056.2 895.25,1072.3 914.96,\
+1081.9 934.89,1087.5"];
+	"components/cart/edit-item-quantity-button.tsx" -> "components/cart/actions.ts"	[pos="e,920.34,737.13 793.11,719.61 829.65,724.64 872.01,730.47 909.42,735.63"];
+	"components/cart/edit-item-quantity-button.tsx" -> "components/loading-dots.tsx"	[pos="e,975.06,820.96 827,719.61 833.59,722.05 839.97,724.91 846,728.23 867.53,740.11 862.62,755.11 882,770.23 907.01,789.75 939.02,805.64 \
+964.56,816.58"];
+	"components/cart/index.tsx"	[height=0.32986,
+		pos="102.5,853.23",
+		width=2.4097];
+	"components/cart/modal.tsx"	[height=0.32986,
+		pos="381.75,853.23",
+		width=2.4826];
+	"components/cart/index.tsx" -> "components/cart/modal.tsx"	[pos="e,292.21,853.23 189.7,853.23 218.6,853.23 251.06,853.23 280.91,853.23"];
+	"components/cart/modal.tsx" -> "lib/utils.ts"	[pos="e,1249.1,1073.9 471.59,852.52 565.84,853.65 718.43,860.91 846,892.23 981.99,925.63 1010.1,953.94 1136.5,1014.2 1172.3,1031.3 1212.2,\
+1053.1 1239.1,1068.2"];
+	"components/cart/modal.tsx" -> "lib/constants.ts"	[pos="e,1265.9,481.21 390.83,841.06 413.04,808.8 478.69,721.18 558.5,686.23 794.32,582.96 910.17,770.91 1136.5,648.23 1201.4,613.03 1243.9,\
+531.31 1261.5,491.64"];
+	"components/cart/modal.tsx" -> "lib/shopify/types.ts"	[pos="e,945.98,1093.3 401.38,865.29 430.59,884.99 487.45,926.71 522.5,974.23 546.12,1006.3 526.15,1033.1 558.5,1056.2 588.32,1077.6 815.04,\
+1088.6 934.74,1092.9"];
+	"components/cart/modal.tsx" -> "components/cart/close-cart.tsx"	[pos="e,602.12,759.94 403.58,840.89 435.69,822.46 499.72,788.01 558.5,770.23 568.93,767.08 579.94,764.39 591.02,762.1"];
+	"components/cart/modal.tsx" -> "components/cart/delete-item-button.tsx"	[pos="e,576.41,841.07 471.47,847.66 500.53,845.84 533.52,843.77 565.25,841.77"];
+	"components/cart/modal.tsx" -> "components/cart/edit-item-quantity-button.tsx"	[pos="e,585.09,719.56 395.13,841.15 422.2,815.54 489.71,755.88 558.5,728.23 563.54,726.21 568.74,724.38 574.06,722.72"];
+	"components/cart/open-cart.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="702.25,913.23",
+		width=2.7535];
+	"components/cart/modal.tsx" -> "components/cart/open-cart.tsx"	[pos="e,632.61,900.89 445.76,865.6 479.23,872.12 521.08,880.21 558.5,887.23 578.87,891.06 600.89,895.11 621.39,898.85"];
+	"components/cart/modal.tsx" -> "components/price.tsx"	[pos="e,1199.3,1414.1 405.62,865.5 437.93,884.19 495.95,923.11 522.5,974.23 559.15,1044.8 502.66,1273.6 558.5,1330.2 603.66,1376 782.23,\
+1354.9 846,1363.2 965.13,1378.8 1102.7,1399.3 1188.2,1412.4"];
+	"components/grid/index.tsx"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="102.5,1752.2",
+		width=2.4097];
+	"components/label.tsx" -> "components/price.tsx"	[pos="e,1218,1437.6 1062.9,1473.9 1104.5,1464.2 1162.6,1450.5 1206.8,1440.2"];
+	"components/layout/footer-menu.tsx" -> "lib/shopify/types.ts"	[pos="e,945.83,1096.2 816.56,1179 826.92,1175.4 836.92,1170.9 846,1165.2 868.92,1150.9 858.98,1130.4 882,1116.2 897.68,1106.6 916.42,1101 \
+934.61,1097.8"];
+	"components/logo-square.tsx" -> "components/icons/logo.tsx"	[pos="e,921.07,585.91 795.81,793.8 814.32,790.15 832.26,783.05 846,770.23 900.58,719.35 827.9,657.63 882,606.23 890.09,598.54 899.88,593.06 \
+910.37,589.22"];
+	"components/layout/navbar/index.tsx"	[height=0.32986,
+		pos="381.75,995.23",
+		width=3.2222];
+	"components/layout/navbar/index.tsx" -> "lib/shopify/types.ts"	[pos="e,945.92,1103.6 405.14,1007.6 450.62,1032.6 550.25,1087.1 558.5,1089.2 687.58,1122.5 844.48,1114.1 934.72,1104.8"];
+	"components/layout/navbar/index.tsx" -> "components/cart/open-cart.tsx"	[pos="e,602.87,925.22 412.71,982.89 447.28,969.11 506.11,947.06 558.5,934.23 569.18,931.62 580.38,929.29 591.63,927.21"];
+	"components/layout/navbar/index.tsx" -> "components/logo-square.tsx"	[pos="e,608.79,792.58 400.3,983.03 428.51,962.79 484.63,919.96 522.5,874.23 542.82,849.69 532.12,830.11 558.5,812.23 570.2,804.31 583.68,\
+798.86 597.58,795.17"];
+	"components/layout/navbar/mobile-menu.tsx"	[height=0.32986,
+		pos="702.25,1035.2",
+		width=3.8785];
+	"components/layout/navbar/index.tsx" -> "components/layout/navbar/mobile-menu.tsx"	[pos="e,602.87,1022.9 480.91,1007.6 516.03,1012 555.81,1017 591.82,1021.5"];
+	"components/layout/navbar/search.tsx"	[height=0.32986,
+		pos="1009.2,1035.2",
+		width=3.3368];
+	"components/layout/navbar/index.tsx" -> "components/layout/navbar/search.tsx"	[pos="e,923.77,1022.9 498.1,997.16 591.94,999.4 727.7,1004.2 846,1014.2 867.57,1016.1 890.68,1018.7 912.49,1021.4"];
+	"components/layout/navbar/mobile-menu.tsx" -> "lib/shopify/types.ts"	[pos="e,951.26,1082.9 773.02,1047.6 796.26,1051.8 822.27,1056.6 846,1061.2 876.92,1067.3 911.06,1074.4 940.02,1080.5"];
+	"components/layout/navbar/mobile-menu.tsx" -> "components/layout/navbar/search.tsx"	[pos="e,888.93,1035.2 842.36,1035.2 854.15,1035.2 866.04,1035.2 877.76,1035.2"];
+	"components/layout/navbar/search.tsx" -> "lib/utils.ts"	[pos="e,1235.7,1079.4 1073.3,1047.6 1119.9,1056.7 1182.4,1069 1224.4,1077.2"];
+	"components/layout/search/filter/dropdown.tsx"	[height=0.32986,
+		pos="702.25,589.23",
+		width=3.9931];
+	"components/layout/search/filter/item.tsx"	[height=0.32986,
+		pos="1009.2,627.23",
+		width=3.5347];
+	"components/layout/search/filter/dropdown.tsx" -> "components/layout/search/filter/item.tsx"	[pos="e,908.94,614.86 802.27,601.57 832.72,605.37 866.41,609.56 897.58,613.45"];
+	"components/layout/search/filter/item.tsx" -> "lib/utils.ts"	[pos="e,1268.5,1074 1032,639.51 1059.8,656.24 1107.8,688.69 1136.5,728.23 1216.5,838.61 1254.5,1002.3 1266.4,1062.7"];
+	"components/layout/search/filter/item.tsx" -> "lib/constants.ts"	[pos="e,1262.9,481.21 1115.9,614.91 1123.1,612.49 1130,609.62 1136.5,606.23 1189.8,578.46 1234.6,521.7 1256.4,490.67"];
+	"components/layout/search/filter/index.tsx"	[height=0.32986,
+		pos="381.75,635.23",
+		width=3.6181];
+	"components/layout/search/filter/index.tsx" -> "lib/constants.ts"	[pos="e,1218.7,476.89 504.43,622.9 510.71,620.44 516.78,617.57 522.5,614.23 544.93,601.16 535.96,581.11 558.5,568.23 670.41,504.3 718.32,\
+547.84 846,530.23 974.42,512.52 1124.5,490.7 1207.4,478.54"];
+	"components/layout/search/filter/index.tsx" -> "components/layout/search/filter/dropdown.tsx"	[pos="e,615.66,601.6 468.1,622.91 510.14,616.84 561.01,609.49 604.49,603.21"];
+	"components/layout/search/filter/index.tsx" -> "components/layout/search/filter/item.tsx"	[pos="e,881.75,628.85 512.35,633.58 616.88,632.24 763.55,630.36 870.25,629"];
+	"components/product/variant-selector.tsx" -> "lib/utils.ts"	[pos="e,1249.7,1098.6 788.28,1296.9 807.68,1292.6 827.9,1286.8 846,1279.2 863.73,1271.8 864.91,1264 882,1255.2 989.59,1199.8 1026.4,1208.5 \
+1136.5,1158.2 1172.8,1141.7 1212.9,1119.6 1239.7,1104.3"];
+	"components/product/variant-selector.tsx" -> "lib/shopify/types.ts"	[pos="e,945.92,1091.7 827.23,1296.9 834.05,1293.2 840.39,1288.7 846,1283.2 900.54,1230.4 827.05,1168.6 882,1116.2 896.11,1102.8 915.39,\
+1096.1 934.63,1093.1"];
+	"lib/shopify/fragments/cart.ts"	[height=0.32986,
+		pos="1271.6,134.23",
+		width=2.5139];
+	"lib/shopify/fragments/product.ts"	[height=0.32986,
+		pos="1508.5,94.235",
+		width=2.8264];
+	"lib/shopify/fragments/cart.ts" -> "lib/shopify/fragments/product.ts"	[pos="e,1434.9,106.59 1345,121.91 1369.9,117.67 1398,112.89 1423.7,108.51"];
+	"lib/shopify/fragments/image.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1744.2,94.235",
+		width=2.7222];
+	"lib/shopify/fragments/product.ts" -> "lib/shopify/fragments/image.ts"	[pos="e,1646,94.235 1610.7,94.235 1618.6,94.235 1626.7,94.235 1634.7,94.235"];
+	"lib/shopify/fragments/seo.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1744.2,52.235",
+		width=2.5035];
+	"lib/shopify/fragments/product.ts" -> "lib/shopify/fragments/seo.ts"	[pos="e,1674.5,64.593 1578.4,81.861 1605,77.076 1635.7,71.567 1663.3,66.608"];
+	"lib/shopify/index.ts"	[height=0.32986,
+		pos="702.25,193.23",
+		width=1.7535];
+	"lib/shopify/index.ts" -> "lib/utils.ts"	[pos="e,1270.2,1074.2 720.08,205.47 792.7,258.56 1078.1,470.51 1136.5,564.23 1242.6,734.64 1265.1,986.07 1269.6,1063"];
+	"lib/shopify/index.ts" -> "lib/constants.ts"	[pos="e,1266.3,456.98 750.82,205.54 786.7,214.55 837.23,226.65 882,235.23 994.32,256.78 1039.6,212.54 1136.5,273.23 1203.6,315.24 1245.5,\
+404.45 1262.2,446.46"];
+	"lib/shopify/index.ts" -> "lib/shopify/types.ts"	[pos="e,945.82,1090.7 711.37,205.49 736.83,244.64 815.2,371.03 846,488.23 862.07,549.4 842.87,1006.6 882,1056.2 894.94,1072.7 914.66,1082.3 \
+934.7,1088"];
+	"lib/shopify/mutations/cart.ts"	[height=0.32986,
+		pos="1009.2,172.23",
+		width=2.4931];
+	"lib/shopify/index.ts" -> "lib/shopify/mutations/cart.ts"	[pos="e,919.28,178.36 765.71,188.93 806.6,186.12 860.96,182.38 907.84,179.15"];
+	"lib/shopify/queries/cart.ts"	[height=0.32986,
+		pos="1009.2,130.23",
+		width=2.2847];
+	"lib/shopify/index.ts" -> "lib/shopify/queries/cart.ts"	[pos="e,928.97,142.6 752,180.86 787.83,172 837.77,160.1 882,151.23 893.59,148.91 905.82,146.65 917.92,144.52"];
+	"lib/shopify/queries/collection.ts"	[height=0.32986,
+		pos="1271.6,12.235",
+		width=2.7535];
+	"lib/shopify/index.ts" -> "lib/shopify/queries/collection.ts"	[pos="e,1172.1,1.9372 712.44,181.05 736.35,150.4 804.14,70.294 882,38.235 970.83,1.6598 1080.8,-2.3277 1161,1.3674"];
+	"lib/shopify/queries/menu.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1009.2,214.23",
+		width=2.4514];
+	"lib/shopify/index.ts" -> "lib/shopify/queries/menu.ts"	[pos="e,920.73,208.21 765.71,197.54 807.09,200.38 862.26,204.18 909.53,207.44"];
+	"lib/shopify/queries/page.ts"	[height=0.32986,
+		pos="1508.5,52.235",
+		width=2.3889];
+	"lib/shopify/index.ts" -> "lib/shopify/queries/page.ts"	[pos="e,1422.2,42.767 716.81,181.19 745.11,156.93 813.49,102.65 882,81.235 1062.1,24.924 1285.5,31.644 1410.7,41.807"];
+	"lib/shopify/queries/product.ts"	[height=0.32986,
+		pos="1271.6,92.235",
+		width=2.5972];
+	"lib/shopify/index.ts" -> "lib/shopify/queries/product.ts"	[pos="e,1177.7,86.145 722.66,180.94 754.49,161.52 820.41,124.41 882,109.23 976.22,86.027 1087.1,83.515 1166.3,85.779"];
+	"lib/type-guards.ts"	[color="#black",
+		fontcolor="#black",
+		height=0.32986,
+		pos="1009.2,294.23",
+		width=1.6493];
+	"lib/shopify/index.ts" -> "lib/type-guards.ts"	[pos="e,949.51,284.59 728.13,205.5 762.15,221.84 825.42,250.72 882,268.23 900.05,273.82 919.94,278.55 938.47,282.38"];
+	"lib/shopify/mutations/cart.ts" -> "lib/shopify/fragments/cart.ts"	[pos="e,1186.1,146.58 1094.8,159.9 1120.4,156.16 1148.7,152.03 1174.9,148.2"];
+	"lib/shopify/queries/cart.ts" -> "lib/shopify/fragments/cart.ts"	[pos="e,1180.6,132.85 1091.9,131.49 1116.5,131.87 1143.7,132.29 1169.4,132.68"];
+	"lib/shopify/queries/collection.ts" -> "lib/shopify/fragments/product.ts"	[pos="e,1438.1,81.89 1295.3,24.411 1321.4,38.041 1366.1,59.952 1406.8,73.235 1413.3,75.386 1420.2,77.367 1427.2,79.179"];
+	"lib/shopify/queries/collection.ts" -> "lib/shopify/fragments/seo.ts"	[pos="e,1673.7,39.905 1371.1,15.168 1438.5,17.816 1530,22.661 1610.2,31.235 1627.2,33.047 1645.3,35.534 1662.5,38.163"];
+	"lib/shopify/queries/page.ts" -> "lib/shopify/fragments/seo.ts"	[pos="e,1653.8,52.235 1594.9,52.235 1610.3,52.235 1626.5,52.235 1642.3,52.235"];
+	"lib/shopify/queries/product.ts" -> "lib/shopify/fragments/product.ts"	[pos="e,1406.4,93.374 1365.5,93.025 1375.2,93.109 1385.3,93.194 1395.2,93.279"];
+	"license.md"	[color="#black",
+		fontcolor="#red",
+		height=0.32986,
+		pos="102.5,1794.2",
+		width=1.1285];
+}
