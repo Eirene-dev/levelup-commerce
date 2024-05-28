@@ -3,17 +3,9 @@
 "LevelUp-Commerce"는 Vercel의 Commerce 프로젝트를 기반으로 한 Next.js 기반의 전자상거래 템플릿입니다. 이 프로젝트는 기존 Vercel의 Commerce 프로젝트를 활용하되 특정 부분에 개선과 추가 기능을 포함하였습니다.
 
 ## 추가된 기능과 변경 사항
-본 프로젝트에서는 `app/chat/page.tsx` 파일을 새롭게 추가하여 채팅 UI를 구현하였습니다. 이 파일은 다음과 같은 저작권 고지를 포함합니다:
-```
-/*
-* 추가 및 변경된 부분에 대한 저작권
-* Copyright (c) 2024 PaxCode (Eirene-dev) & bjpublic
-* 이 파일은 원래 Vercel, Inc.의 일부였으며,
-* 아래의 저작자에 의해 추가되었습니다: PaxCode (Eirene-dev) & bjpublic
-*/
-```
+본 프로젝트에서는 `app/chat/page.tsx` 파일을 새롭게 추가하여 채팅 UI를 구현하였습니다. 
 
-## 기존 ReadMe 내용
+## 기존 ReadMe 내용은 다음과 같습니다.
 <br>
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fcommerce&project-name=commerce&repo-name=commerce&demo-title=Next.js%20Commerce&demo-url=https%3A%2F%2Fdemo.vercel.store&demo-image=https%3A%2F%2Fbigcommerce-demo-asset-ksvtgfvnd.vercel.app%2Fbigcommerce.png&env=COMPANY_NAME,SHOPIFY_REVALIDATION_SECRET,SHOPIFY_STORE_DOMAIN,SHOPIFY_STOREFRONT_ACCESS_TOKEN,SITE_NAME,TWITTER_CREATOR,TWITTER_SITE)
